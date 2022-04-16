@@ -6,7 +6,7 @@ This is a quiz application using HTML, CSS, and Javascript. This application emp
 
 * [GitHub Repository](https://github.com/AshCarr88/Week-4Real.git)
 * [Deployed GitHub Page](https://ashcarr88.github.io/Week-4Real/)
-* Screenshot (./assets/images/code-quiz.jpg)
+* [Screenshot](./assets/images/code-quiz.jpg)
 
 ### Summary
 * HTML and CSS and Javascript documents create a quiz with multiple choice questions with Javascript trivia
