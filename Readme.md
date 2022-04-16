@@ -4,21 +4,8 @@ This is a quiz application using HTML, CSS, and Javascript. This application emp
 
 
 
-* [GitHub Repository](https://github.com/jamierachael/Code-Quiz)
-* [Deployed GitHub IO](https://jamierachael.github.io/Code-Quiz/)
-* [Full Demo Video](https://drive.google.com/file/d/1Vwszd5-rVd5LQKwpRoxpXqu_1eiH3uDI/view)
-
-![Code-Quiz Demo](assets/demo/gif.gif)
-
-### Prerequisites
-
-To install this application, you will need a text editor. I recommend Visual Studio Code. 
-
-### Installing
-
-To install this code, download the zip file, or use GitHub's guidelines to clone the repository. 
-
-
+* [GitHub Repository]()
+* [Deployed GitHub Page]()
 ### Summary
 * HTML and CSS and Javascript documents create a quiz with multiple choice questions with Javascript trivia
 * This project emphasizes the use of using Javascript to make dynamic changes to an HMTL document
@@ -29,15 +16,12 @@ To install this code, download the zip file, or use GitHub's guidelines to clone
     * This starts a timer for the user
     * Each question averages 15 seconds each for a total time of 75 seconds + 1. 
 
-![](assets/images/button.PNG)
 
 * An appended HTML page that features questions, and multiple choice answers
     * If questions are answered incorrectly, 5 seconds are deducted off remaining time
     * Answers are recording using an event listener, "click" and tracks correct answers
 
-![](assets/images/question1.PNG)
 
-![](assets/images/question2.PNG)
 
 * An appended HTML page that features: 
     * Final score which is calculated using time remaining
@@ -46,14 +30,12 @@ To install this code, download the zip file, or use GitHub's guidelines to clone
     * A Submit button
     * Submit buttom saves initials and score to local storage
 
-![](assets/images/final.PNG)
 
 * A Highscores HTML
     * This a list summary of intials and final scores
     * Clear button resets the page and local storage
     * Go back button travels to the start of the quiz
 
-![](assets/images/high.PNG)
 
 ### Psuedo code:  
 * Create a timer attached to a button with a starting value of 0
