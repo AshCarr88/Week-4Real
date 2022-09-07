@@ -1,7 +1,7 @@
 // Declared variables
-var highScore = document.querySelector("#highScore");
-var clear = document.querySelector("#clear");
-var goBack = document.querySelector("#goBack");
+const highScore = document.querySelector("#highScore");
+const clear = document.querySelector("#clear");
+const goBack = document.querySelector("#goBack");
 
 // Event listener to clear scores 
 clear.addEventListener("click", function () {
@@ -9,14 +9,14 @@ clear.addEventListener("click", function () {
     location.reload();
 });
 // Retreives local stroage 
-var allScores = localStorage.getItem("allScores");
+const allScores = localStorage.getItem("allScores");
 allScores = JSON.parse(allScores);
 
 if (allScores !== null) {
 
-    for (var i = 0; i < allScores.length; i++) {
+    for (const i = 0; i < allScores.length; i++) {
 
-        var createLi = document.createElement("li");
+        const createLi = document.createElement("li");
         createLi.textContent = allScores[i].initials + " " + allScores[i].score;
         highScore.appendChild(createLi);
 
