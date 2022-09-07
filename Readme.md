@@ -96,4 +96,4 @@ This is a quiz application using HTML, CSS, and Javascript. This application emp
         * if/else if statements
         * For Loops
         * Functions 
-        * Local Storage set and get 
+        * Local Storage set and get
